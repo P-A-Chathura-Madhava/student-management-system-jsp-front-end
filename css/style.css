@@ -2,3 +2,21 @@
     color: red;
     font-size: 3rem;
 }
+
+:root {
+    --white : #ecf0f1;
+    --bg-color : #0652DD;
+}
+
+.container-md {
+    background-color: var(--bg-color);
+    padding-top: 20px;
+    height: 100vh;
+}
+.main__heading {
+    color: var(--white);
+}
+
+.body__wrap_heading {
+    background-color: green;
+}
